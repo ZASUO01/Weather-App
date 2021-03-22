@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+  
+  @keyframes fadeIn{
+      from{
+          opacity: 0;
+      }
+      to{
+          opacity: 1;
+      }
+  }
+  
+  .fade-in{
+      animation-name: fadeIn;
+      animation-duration: .9s;
+  }
+  
+  
+  /*
+  ::-webkit-scrollbar {
+      height: 9px;
+      width: 10px;
+    }
+    
+
+    ::-webkit-scrollbar-track {
+      background:  #D1D5DB;
+    }
+    
+    
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+    
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+   */
